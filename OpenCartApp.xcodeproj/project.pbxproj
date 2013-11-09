@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F63CA6F0182EB35B00B3EDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA6EF182EB35B00B3EDD3 /* Foundation.framework */; };
+		F63CA6F2182EB35B00B3EDD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA6F1182EB35B00B3EDD3 /* CoreGraphics.framework */; };
+		F63CA6F4182EB35B00B3EDD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA6F3182EB35B00B3EDD3 /* UIKit.framework */; };
+		F63CA6FA182EB35B00B3EDD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F63CA6F8182EB35B00B3EDD3 /* InfoPlist.strings */; };
+		F63CA6FC182EB35B00B3EDD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F63CA6FB182EB35B00B3EDD3 /* main.m */; };
+		F63CA700182EB35B00B3EDD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F63CA6FF182EB35B00B3EDD3 /* AppDelegate.m */; };
+		F63CA703182EB35B00B3EDD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63CA701182EB35B00B3EDD3 /* Main.storyboard */; };
+		F63CA706182EB35B00B3EDD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63CA705182EB35B00B3EDD3 /* ViewController.m */; };
+		F63CA708182EB35B00B3EDD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63CA707182EB35B00B3EDD3 /* Images.xcassets */; };
+		F63CA70F182EB35B00B3EDD3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA70E182EB35B00B3EDD3 /* XCTest.framework */; };
+		F63CA710182EB35B00B3EDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA6EF182EB35B00B3EDD3 /* Foundation.framework */; };
+		F63CA711182EB35B00B3EDD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA6F3182EB35B00B3EDD3 /* UIKit.framework */; };
+		F63CA719182EB35B00B3EDD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F63CA717182EB35B00B3EDD3 /* InfoPlist.strings */; };
+		F63CA71B182EB35B00B3EDD3 /* OpenCartAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63CA71A182EB35B00B3EDD3 /* OpenCartAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F63CA712182EB35B00B3EDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63CA6E4182EB35B00B3EDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63CA6EB182EB35B00B3EDD3;
+			remoteInfo = OpenCartApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F63CA6EC182EB35B00B3EDD3 /* OpenCartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63CA6EF182EB35B00B3EDD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F63CA6F1182EB35B00B3EDD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F63CA6F3182EB35B00B3EDD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F63CA6F7182EB35B00B3EDD3 /* OpenCartApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCartApp-Info.plist"; sourceTree = "<group>"; };
+		F63CA6F9182EB35B00B3EDD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F63CA6FB182EB35B00B3EDD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F63CA6FD182EB35B00B3EDD3 /* OpenCartApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCartApp-Prefix.pch"; sourceTree = "<group>"; };
+		F63CA6FE182EB35B00B3EDD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F63CA6FF182EB35B00B3EDD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F63CA702182EB35B00B3EDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F63CA704182EB35B00B3EDD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F63CA705182EB35B00B3EDD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F63CA707182EB35B00B3EDD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F63CA70D182EB35B00B3EDD3 /* OpenCartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63CA70E182EB35B00B3EDD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F63CA716182EB35B00B3EDD3 /* OpenCartAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCartAppTests-Info.plist"; sourceTree = "<group>"; };
+		F63CA718182EB35B00B3EDD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F63CA71A182EB35B00B3EDD3 /* OpenCartAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCartAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63CA6E9182EB35B00B3EDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63CA6F2182EB35B00B3EDD3 /* CoreGraphics.framework in Frameworks */,
+				F63CA6F4182EB35B00B3EDD3 /* UIKit.framework in Frameworks */,
+				F63CA6F0182EB35B00B3EDD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63CA70A182EB35B00B3EDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63CA70F182EB35B00B3EDD3 /* XCTest.framework in Frameworks */,
+				F63CA711182EB35B00B3EDD3 /* UIKit.framework in Frameworks */,
+				F63CA710182EB35B00B3EDD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F63CA6E3182EB35B00B3EDD3 = {
+			isa = PBXGroup;
+			children = (
+				F63CA6F5182EB35B00B3EDD3 /* OpenCartApp */,
+				F63CA714182EB35B00B3EDD3 /* OpenCartAppTests */,
+				F63CA6EE182EB35B00B3EDD3 /* Frameworks */,
+				F63CA6ED182EB35B00B3EDD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F63CA6ED182EB35B00B3EDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F63CA6EC182EB35B00B3EDD3 /* OpenCartApp.app */,
+				F63CA70D182EB35B00B3EDD3 /* OpenCartAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63CA6EE182EB35B00B3EDD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F63CA6EF182EB35B00B3EDD3 /* Foundation.framework */,
+				F63CA6F1182EB35B00B3EDD3 /* CoreGraphics.framework */,
+				F63CA6F3182EB35B00B3EDD3 /* UIKit.framework */,
+				F63CA70E182EB35B00B3EDD3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F63CA6F5182EB35B00B3EDD3 /* OpenCartApp */ = {
+			isa = PBXGroup;
+			children = (
+				F63CA6FE182EB35B00B3EDD3 /* AppDelegate.h */,
+				F63CA6FF182EB35B00B3EDD3 /* AppDelegate.m */,
+				F63CA701182EB35B00B3EDD3 /* Main.storyboard */,
+				F63CA704182EB35B00B3EDD3 /* ViewController.h */,
+				F63CA705182EB35B00B3EDD3 /* ViewController.m */,
+				F63CA707182EB35B00B3EDD3 /* Images.xcassets */,
+				F63CA6F6182EB35B00B3EDD3 /* Supporting Files */,
+			);
+			path = OpenCartApp;
+			sourceTree = "<group>";
+		};
+		F63CA6F6182EB35B00B3EDD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F63CA6F7182EB35B00B3EDD3 /* OpenCartApp-Info.plist */,
+				F63CA6F8182EB35B00B3EDD3 /* InfoPlist.strings */,
+				F63CA6FB182EB35B00B3EDD3 /* main.m */,
+				F63CA6FD182EB35B00B3EDD3 /* OpenCartApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F63CA714182EB35B00B3EDD3 /* OpenCartAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F63CA71A182EB35B00B3EDD3 /* OpenCartAppTests.m */,
+				F63CA715182EB35B00B3EDD3 /* Supporting Files */,
+			);
+			path = OpenCartAppTests;
+			sourceTree = "<group>";
+		};
+		F63CA715182EB35B00B3EDD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F63CA716182EB35B00B3EDD3 /* OpenCartAppTests-Info.plist */,
+				F63CA717182EB35B00B3EDD3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F63CA6EB182EB35B00B3EDD3 /* OpenCartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63CA71E182EB35B00B3EDD3 /* Build configuration list for PBXNativeTarget "OpenCartApp" */;
+			buildPhases = (
+				F63CA6E8182EB35B00B3EDD3 /* Sources */,
+				F63CA6E9182EB35B00B3EDD3 /* Frameworks */,
+				F63CA6EA182EB35B00B3EDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCartApp;
+			productName = OpenCartApp;
+			productReference = F63CA6EC182EB35B00B3EDD3 /* OpenCartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F63CA70C182EB35B00B3EDD3 /* OpenCartAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63CA721182EB35B00B3EDD3 /* Build configuration list for PBXNativeTarget "OpenCartAppTests" */;
+			buildPhases = (
+				F63CA709182EB35B00B3EDD3 /* Sources */,
+				F63CA70A182EB35B00B3EDD3 /* Frameworks */,
+				F63CA70B182EB35B00B3EDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63CA713182EB35B00B3EDD3 /* PBXTargetDependency */,
+			);
+			name = OpenCartAppTests;
+			productName = OpenCartAppTests;
+			productReference = F63CA70D182EB35B00B3EDD3 /* OpenCartAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63CA6E4182EB35B00B3EDD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Claudio Barbera";
+				TargetAttributes = {
+					F63CA70C182EB35B00B3EDD3 = {
+						TestTargetID = F63CA6EB182EB35B00B3EDD3;
+					};
+				};
+			};
+			buildConfigurationList = F63CA6E7182EB35B00B3EDD3 /* Build configuration list for PBXProject "OpenCartApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F63CA6E3182EB35B00B3EDD3;
+			productRefGroup = F63CA6ED182EB35B00B3EDD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F63CA6EB182EB35B00B3EDD3 /* OpenCartApp */,
+				F63CA70C182EB35B00B3EDD3 /* OpenCartAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F63CA6EA182EB35B00B3EDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63CA708182EB35B00B3EDD3 /* Images.xcassets in Resources */,
+				F63CA6FA182EB35B00B3EDD3 /* InfoPlist.strings in Resources */,
+				F63CA703182EB35B00B3EDD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63CA70B182EB35B00B3EDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63CA719182EB35B00B3EDD3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F63CA6E8182EB35B00B3EDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63CA706182EB35B00B3EDD3 /* ViewController.m in Sources */,
+				F63CA700182EB35B00B3EDD3 /* AppDelegate.m in Sources */,
+				F63CA6FC182EB35B00B3EDD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63CA709182EB35B00B3EDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63CA71B182EB35B00B3EDD3 /* OpenCartAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F63CA713182EB35B00B3EDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63CA6EB182EB35B00B3EDD3 /* OpenCartApp */;
+			targetProxy = F63CA712182EB35B00B3EDD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F63CA6F8182EB35B00B3EDD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63CA6F9182EB35B00B3EDD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F63CA701182EB35B00B3EDD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63CA702182EB35B00B3EDD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F63CA717182EB35B00B3EDD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63CA718182EB35B00B3EDD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F63CA71C182EB35B00B3EDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F63CA71D182EB35B00B3EDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F63CA71F182EB35B00B3EDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCartApp/OpenCartApp-Prefix.pch";
+				INFOPLIST_FILE = "OpenCartApp/OpenCartApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F63CA720182EB35B00B3EDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCartApp/OpenCartApp-Prefix.pch";
+				INFOPLIST_FILE = "OpenCartApp/OpenCartApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F63CA722182EB35B00B3EDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCartApp.app/OpenCartApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCartApp/OpenCartApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpenCartAppTests/OpenCartAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F63CA723182EB35B00B3EDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCartApp.app/OpenCartApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCartApp/OpenCartApp-Prefix.pch";
+				INFOPLIST_FILE = "OpenCartAppTests/OpenCartAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63CA6E7182EB35B00B3EDD3 /* Build configuration list for PBXProject "OpenCartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63CA71C182EB35B00B3EDD3 /* Debug */,
+				F63CA71D182EB35B00B3EDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63CA71E182EB35B00B3EDD3 /* Build configuration list for PBXNativeTarget "OpenCartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63CA71F182EB35B00B3EDD3 /* Debug */,
+				F63CA720182EB35B00B3EDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F63CA721182EB35B00B3EDD3 /* Build configuration list for PBXNativeTarget "OpenCartAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63CA722182EB35B00B3EDD3 /* Debug */,
+				F63CA723182EB35B00B3EDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F63CA6E4182EB35B00B3EDD3 /* Project object */;
+}
