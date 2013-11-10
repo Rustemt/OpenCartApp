@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E8E905AB0A24CFE8125296F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F50B6BCBC546430A942FECDA /* libPods.a */; };
+		F625A749182EB8260019BDCD /* DataEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F625A748182EB8260019BDCD /* DataEngine.m */; };
+		F625A74C182FEA240019BDCD /* Categoria.m in Sources */ = {isa = PBXBuildFile; fileRef = F625A74B182FEA240019BDCD /* Categoria.m */; };
 		F63CA6F0182EB35B00B3EDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA6EF182EB35B00B3EDD3 /* Foundation.framework */; };
 		F63CA6F2182EB35B00B3EDD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA6F1182EB35B00B3EDD3 /* CoreGraphics.framework */; };
 		F63CA6F4182EB35B00B3EDD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CA6F3182EB35B00B3EDD3 /* UIKit.framework */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B8A8EFF2C164BFEA4D80D7F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F50B6BCBC546430A942FECDA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F625A747182EB8260019BDCD /* DataEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataEngine.h; sourceTree = "<group>"; };
+		F625A748182EB8260019BDCD /* DataEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataEngine.m; sourceTree = "<group>"; };
+		F625A74A182FEA240019BDCD /* Categoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categoria.h; sourceTree = "<group>"; };
+		F625A74B182FEA240019BDCD /* Categoria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categoria.m; sourceTree = "<group>"; };
 		F63CA6EC182EB35B00B3EDD3 /* OpenCartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63CA6EF182EB35B00B3EDD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F63CA6F1182EB35B00B3EDD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +72,7 @@
 				F63CA6F2182EB35B00B3EDD3 /* CoreGraphics.framework in Frameworks */,
 				F63CA6F4182EB35B00B3EDD3 /* UIKit.framework in Frameworks */,
 				F63CA6F0182EB35B00B3EDD3 /* Foundation.framework in Frameworks */,
+				2E8E905AB0A24CFE8125296F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +89,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F625A743182EB8040019BDCD /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F625A744182EB8040019BDCD /* img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		F625A745182EB8040019BDCD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F625A747182EB8260019BDCD /* DataEngine.h */,
+				F625A748182EB8260019BDCD /* DataEngine.m */,
+				F625A74A182FEA240019BDCD /* Categoria.h */,
+				F625A74B182FEA240019BDCD /* Categoria.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F625A746182EB8040019BDCD /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
 		F63CA6E3182EB35B00B3EDD3 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +128,7 @@
 				F63CA714182EB35B00B3EDD3 /* OpenCartAppTests */,
 				F63CA6EE182EB35B00B3EDD3 /* Frameworks */,
 				F63CA6ED182EB35B00B3EDD3 /* Products */,
+				4B8A8EFF2C164BFEA4D80D7F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +148,7 @@
 				F63CA6F1182EB35B00B3EDD3 /* CoreGraphics.framework */,
 				F63CA6F3182EB35B00B3EDD3 /* UIKit.framework */,
 				F63CA70E182EB35B00B3EDD3 /* XCTest.framework */,
+				F50B6BCBC546430A942FECDA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +156,10 @@
 		F63CA6F5182EB35B00B3EDD3 /* OpenCartApp */ = {
 			isa = PBXGroup;
 			children = (
+				F625A743182EB8040019BDCD /* controller */,
+				F625A744182EB8040019BDCD /* img */,
+				F625A745182EB8040019BDCD /* model */,
+				F625A746182EB8040019BDCD /* vendor */,
 				F63CA6FE182EB35B00B3EDD3 /* AppDelegate.h */,
 				F63CA6FF182EB35B00B3EDD3 /* AppDelegate.m */,
 				F63CA701182EB35B00B3EDD3 /* Main.storyboard */,
@@ -159,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F63CA71E182EB35B00B3EDD3 /* Build configuration list for PBXNativeTarget "OpenCartApp" */;
 			buildPhases = (
+				CF8EF1F25ED5420B87C73693 /* Check Pods Manifest.lock */,
 				F63CA6E8182EB35B00B3EDD3 /* Sources */,
 				F63CA6E9182EB35B00B3EDD3 /* Frameworks */,
 				F63CA6EA182EB35B00B3EDD3 /* Resources */,
+				D763645C551543859EB97C03 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +294,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CF8EF1F25ED5420B87C73693 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D763645C551543859EB97C03 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F63CA6E8182EB35B00B3EDD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F63CA706182EB35B00B3EDD3 /* ViewController.m in Sources */,
+				F625A74C182FEA240019BDCD /* Categoria.m in Sources */,
 				F63CA700182EB35B00B3EDD3 /* AppDelegate.m in Sources */,
 				F63CA6FC182EB35B00B3EDD3 /* main.m in Sources */,
+				F625A749182EB8260019BDCD /* DataEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +460,7 @@
 		};
 		F63CA71F182EB35B00B3EDD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8A8EFF2C164BFEA4D80D7F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +474,7 @@
 		};
 		F63CA720182EB35B00B3EDD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8A8EFF2C164BFEA4D80D7F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +547,7 @@
 				F63CA720182EB35B00B3EDD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F63CA721182EB35B00B3EDD3 /* Build configuration list for PBXNativeTarget "OpenCartAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +556,7 @@
 				F63CA723182EB35B00B3EDD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

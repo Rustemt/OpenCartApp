@@ -9,9 +9,12 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize dataEngine;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.dataEngine = [[DataEngine alloc] initWithDefaultSettings];
+    
     // Override point for customization after application launch.
     return YES;
 }

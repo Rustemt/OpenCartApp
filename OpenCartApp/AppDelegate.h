@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataEngine.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+
+@property (strong, nonatomic) DataEngine *dataEngine;
 @property (strong, nonatomic) UIWindow *window;
 
 @end
