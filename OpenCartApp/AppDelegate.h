@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "DataEngine.h"
 
+#define ApplicationDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 

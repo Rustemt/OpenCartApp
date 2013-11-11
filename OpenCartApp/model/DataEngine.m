@@ -13,7 +13,7 @@
 
 -(id) initWithDefaultSettings {
     
-    if(self = [super initWithHostName:@"http://example.com/"
+    if(self = [super initWithHostName:@"www.sbuffo.it/demo/index.php"
                    customHeaderFields:nil]) {
         
     }
@@ -24,7 +24,7 @@
 -(MKNetworkOperation *)fetchCategoriesOnSucceeded:(ArrayResponseBlock)succededBlock onError:(ErrorBlock)errorBlock{
 
 
-    MKNetworkOperation *op = [self operationWithPath:@"route=feed/web_api/categories" params:nil];
+    MKNetworkOperation *op = [self operationWithURLString:@"http://www.sbuffo.it/demo/index.php?route=feed/web_api/categories" params:nil];
     
     
     [op onCompletion:^(MKNetworkOperation *completedOperation)
@@ -33,11 +33,12 @@
          
          if (!isCachedResponse){
              
+             NSString *r = [op responseString];
              NSMutableDictionary *responseDictionary = [op responseJSON];
              NSDictionary *result = [responseDictionary objectForKey:@"result"];
              
              
-             NSMutableArray *items = [result objectForKey:@"categories"];
+             NSMutableArray *items = [responseDictionary objectForKey:@"categories"];
              
              NSMutableArray *arrayout = [NSMutableArray array];
              
