@@ -6,11 +6,13 @@
 //  Copyright (c) 2013 Claudio Barbera. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CategorieViewController.h"
 #import "AppDelegate.h"
 #import "Categoria.h"
+#import <AVFoundation/AVFoundation.h>
+#import "ArticoliViewController.h"
 
-@implementation ViewController
+@implementation CategorieViewController
 @synthesize  categorie;
 
 - (void)viewDidLoad
@@ -24,10 +26,19 @@
         
         [categorie addObjectsFromArray:listOfObjects];
         [self.tableView reloadData];
+
+        
     } onError:^(NSError *engineError) {
         
         
     }];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    int i = [[self.tableView indexPathForSelectedRow] row];
+
+    [[segue destinationViewController] setCategoriaSelezionata:[categorie objectAtIndex:i]];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -52,7 +63,10 @@
     
     Categoria *c = [categorie objectAtIndex:indexPath.row];
     UILabel *lblName = (UILabel *)[cell viewWithTag:1];
+    UIImageView *img = (UIImageView *)[cell viewWithTag:2];
     
+    
+    [img setImageWithURL:[NSURL URLWithString:c.imagePath]];
     [lblName setText:c.name];
     
     return cell;

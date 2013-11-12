@@ -10,6 +10,6 @@
 
 @implementation Categoria
 
-@synthesize categoryId, name;
+@synthesize categoryId, name, imagePath;
 
 @end

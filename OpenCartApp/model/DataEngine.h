@@ -22,7 +22,9 @@ typedef void (^DictionaryBlock)(NSDictionary *dictionaryResult);
 -(id) initWithDefaultSettings;
 
 -(MKNetworkOperation *)fetchCategoriesOnSucceeded:(ArrayResponseBlock)succededBlock onError:(ErrorBlock)errorBlock;
+-(MKNetworkOperation *)fetchCategoryWithId:(NSString *)categoryId OnSucceeded:(ArrayResponseBlock)succededBlock onError:(ErrorBlock)errorBlock;
+-(MKNetworkOperation *)fetchObjectsWithCategoryId:(NSString *)categoryId OnSucceeded:(ArrayResponseBlock)succededBlock onError:(ErrorBlock)errorBlock;
 
-
+-(MKNetworkOperation *)fetchObjectWithId:(NSString *)objectId OnSucceeded:(ModelBlock)succededBlock onError:(ErrorBlock)errorBlock;
 
 @end
